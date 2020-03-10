@@ -1,0 +1,1 @@
+C:\"Program Files"\PROGRAMAS\MongoDB\Server\4.0\bin\mongod --dbpath C:\DevC\seed-project\data\db
