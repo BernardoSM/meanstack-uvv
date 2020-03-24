@@ -1,18 +1,18 @@
-var User = require('../models/user');
-router.get('/node-mongodb-mongoose-user', function(req, res, next){
-    res.render('node');
-});
+// var User = require('../models/user');
+// router.get('/node-mongodb-mongoose-user', function(req, res, next){
+//     res.render('node');
+// });
 
-router.post('/node-mongodb-mongoose-user', function(req, res, next){
-    var emailVar = req.body.emailBody;
-    var userObject = new User({
-        firstName: 'Bernardo',
-        lastName: 'Simonassi',
-        password: 'teste',
-        email: emailVar
-    })
+// router.post('/node-mongodb-mongoose-user', function(req, res, next){
+//     var emailVar = req.body.emailBody;
+//     var userObject = new User({
+//         firstName: 'Bernardo',
+//         lastName: 'Simonassi',
+//         password: 'teste',
+//         email: emailVar
+//     })
 
-    userObject.save();
+//     userObject.save();
 
-    res.redirect('node-mondogb-mongoose-user');
-})
+//     res.redirect('node-mondogb-mongoose-user');
+// })
